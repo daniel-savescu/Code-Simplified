@@ -5,13 +5,50 @@ body {
   background-color: #fffcfc;
 }
 .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 1;
 }
+.logo-git {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+  color: #fff;
+}
+
+figure.start-photos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img.laptop {
+  border-radius: 10px;
+  width: 40%;
+  height: auto;
+}
+img.male_programmer {
+  border-radius: 10px;
+  width: 40%;
+  height: auto;
+}
+a.active {
+  color: #fff;
+}
+a.active:hover {
+  font-weight: 500;
+}
+
 h1 {
   font-weight: 700;
   color: #333;
+}
+div.card {
+  width: 90%;
+  margin: auto;
 }
 a {
   text-decoration: none;
