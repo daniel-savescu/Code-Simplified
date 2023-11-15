@@ -2,7 +2,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: #e5e5e5;
+  background-color: #fffcfc;
 }
 h1 {
   font-weight: 700;
@@ -16,13 +16,13 @@ a:hover {
   color: #333;
   transition: all 0.3s;
 }
-.alignment {
-  display: flex;
-  align-items: center;
-}
+
 .js-logo {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   color: #333;
-  margin-left: 0.5rem;
   width: 24px;
   height: 24px;
+  display: flex;
+  align-items: start;
 }
